@@ -1,0 +1,278 @@
+
+/*nav{
+    width:100%;
+    height: 80px;
+    background-color: black;
+    text-decoration-color: chartreuse;
+   
+    
+}   
+.logo{
+    width:70px;
+    height:70px;
+    margin-top:40px;
+    
+
+}
+li{
+    display: inline-block;
+    margin-top:-35px;
+}
+.lien{
+    margin-left:65%;
+    font-size:30px;
+    margin-top:40px;
+    text-align: center;
+    size: 50px;
+    font-size:60px;
+    display: inline-block;
+
+    
+
+}
+.btn1 ,.btn2, .btn3{ 
+    width:100%;
+    height: 50px;
+    color: rgb(235, 83, 23);
+    background-color: rgba(226, 9, 255, 0.068);
+    margin-top:10px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius:20px;
+    margin-left: 50px;
+    
+}
+.btn1:hover,.btn2:hover, .btn3:hover{ 
+    width:100%;
+    height: 60px;
+    color: rgb(226, 222, 221);
+    background-color: rgb(255, 9, 193);
+    margin-top:10px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius:20px;
+    margin-left: 50px;
+}
+.btn4 ,.btn5{ 
+    width:1auto;
+    height: 50px;
+    color: rgb(214, 177, 14);
+    background-color: rgba(226, 202, 202, 0.342);
+    margin-top:10px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius:20px;
+    margin-left:20px;
+    border-color: yellow;
+    animation: clinonte 4s infinite;
+}
+
+.btn4:hover, .btn5:hover{
+        width:1auto;
+        height:50px;
+        color: white;
+        background-color: rgb(0, 3, 10);
+        margin-top:10px;
+        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius:20px;
+        margin-left:20px;
+    }
+
+.identite{
+    animation: clinontent 4s infinite;
+    color: lawngreen;
+    margin-left:90px;
+    margin-top:-41px;
+    font-size: medium;
+    font-size: 22px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+
+}
+.travel{
+    border-radius: 30px;
+    width: 300px;
+    height: 250px;
+}
+.blogtitle{
+    font-size:60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    transform: rotate3d();
+    margin-top:-80px;
+
+}
+#body{
+    width: 100%;
+    height: 700px;
+    background-image:url('../images/voyage/fong.jpg');
+    background-size:cover;
+}
+
+.title{
+        text-align: center;
+        font-size: 50px; 
+        color: rgba(0, 26, 255, 0.719);
+        margin-top: -600px;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-weight: 600;
+    
+        
+    }
+
+@keyframes clinonte{
+    0%{
+        
+    }
+    25% {
+        color:yellow;
+        font-size: 27px;
+        transform: translateX(-50px);
+
+    }
+    50%{
+        color: turquoise;
+        transform: translateX(-30px);
+    }
+    75%{
+        color:rgb(235, 83, 23);
+        font-size: 29px;
+        transform: translateX(-10px);
+        transform: rotateX(10px);
+    }
+    100%{
+        transform: translateX(10px);
+        color:rgb(235, 83, 23);
+        font-size: 29px
+        
+        
+    }
+    
+}
+@keyframes clinontent{
+    50%{
+        color:black;
+        
+    }
+    100%{
+        color: green;
+        
+    }
+}
+
+
+/* section card image 
+
+.card-content{
+    margin-top:340px;
+    margin-left: 20px;  
+    width: 300px;
+    height: 250;    
+}
+
+.imgCard{
+
+    width: 250px;
+    height: 205px;
+    border-radius:10px;
+    border:0.5px;
+    border-style: solid;
+    border-color: blue;
+    margin-top: 12px;
+    margin-left: 9px;
+}
+.card{
+    color: rgb(0, 3, 10);
+    text-align: center;
+    border-style: solid;
+    border-radius:5px;
+    width: 300px;
+    height: 250;  
+    background-color: rgba(28, 248, 226, 0.226);
+}
+
+#left-section{
+    text-align: right;
+    margin-left:725px;
+    margin-top: -325%;
+}
+
+.auth{
+    border-style:solid;
+    border-color:white;
+    background-color: rgba(135, 145, 156, 0.226);
+    border-radius:150px;
+    width: 35%;
+    margin-top: 5%;
+    margin-left:60%;
+    text-align: center;
+}
+.connexion{
+    background-color: rgba(0, 100, 0, 0.493);
+    border-radius:35px;
+    width: 70px;
+    height:auto;
+
+}
+.btn-Inscrire{
+    background-color: rgba(0, 100, 0, 0.493);
+    border-radius:25px;
+    width: 70px;;
+    height:auto;
+    margin-top: 30px;
+}
+
+input{ 
+    height:30px;
+    align-items: center ;
+    width: 40%;
+    border-radius:10px;
+}
+.card1{
+    display: inline-block;
+    font-size-adjust: inherit;
+}
+
+.card2{
+    margin-top:-149%;
+    margin-left: 120%;
+    display: inline-block;
+}
+.card3{
+    display: inline-block;
+    margin-top: 55px;
+    border: 0.5px
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.login{
+   color: rgb(6, 182, 226); 
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size:35px;
+   background-color: yellow;
+   background-size: 40px;
+   border-radius: 20px;
+   width: 50%;
+   text-align: center;
+   margin-left: 25%;
+}
+
+.submit_btn{
+ margin-top: 20px;
+ color : blue;
+ font-size: 20px;
+}
+
+#Footer{
+    height: 40%;
+    width: 100%;
+    background-color: rgba(2, 9, 10, 0.671);
+    font-size: 20px;
+    margin-top: 250px;
+    color: rgba(49, 7, 7, 0.493);
+}
+*/
